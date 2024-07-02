@@ -11,7 +11,7 @@ function go() {
 
     setTimeout(function () {
         if (new Date().getTime() - now > 100) return;
-        window.location = appStoreURL;
+        window.location = landingUrl;
     }, 25);
 
     window.location = appScheme;
